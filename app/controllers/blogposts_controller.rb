@@ -38,5 +38,5 @@ class BlogpostsController < ApplicationController
   def blogposts_params
     params.require(:blogpost).permit(:title, :read, :content, :bloggenre_id)
   end
-  
+
 end
